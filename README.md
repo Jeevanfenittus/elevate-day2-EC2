@@ -27,7 +27,3 @@ Create EC2 Instance
 - Used **EC2 Instance Connect** → “Connect”  
 - Opened a browser terminal session directly from AWS Console.
 
-### Option 2: Local SSH (Using Key File)
-```bash
-chmod 400 elevate-key.pem
-ssh -i elevate-key.pem ubuntu@<public-ip>
